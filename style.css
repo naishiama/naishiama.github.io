@@ -1,0 +1,151 @@
+body {
+    background-image: url("./images/wp3.jpg");
+    background-size: 100%;
+    /* margin: 25px; */
+}
+
+#title {
+    color: white;
+    text-align: center;
+    font-size: 25px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sentence {
+    color: yellow;
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+    position: relative;    
+    top: 125px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+    list-style-type: none;
+    /* margin: 0; */
+    /* padding: 0; */
+    overflow: hidden;
+    background-color: rgba(153, 0, 255, 0.053);
+    /* position: relative; */
+    /* top: 20px; */ */
+}
+
+li {
+    
+    float: left;
+}
+
+li a {
+    display: block;
+   
+    color: aqua;
+    font-size: 25px;
+    text-align: center;
+    padding: 50px 22px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold; 
+}
+
+li a:hover {
+    background-color: #3f014c69;
+}
+
+.content {
+    position: relative;
+    color: rgba(255, 255, 255, 0.078);
+    left: 85px;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: bold; 
+} 
+
+#aboutTitle {
+    color: yellow;
+    align-content: center;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#aboutDesc {
+    position: relative;
+    top: 25px; 
+    line-height: 40px; 
+    font-size: 25px; 
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+
+#aboutResize {
+    position:relative;
+    /* top: 400px; */
+    padding: 25px;
+    /* color: white; */
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div.polaroid {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    width: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+div.container {
+    
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+#logo {
+    position: relative;
+    left: 900px;
+    size: 10%;
+}
+
+div {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 5px;
+  text-shadow: -2px 0 0 #fdff2a,
+    -4px 0 0 #df4a42,
+    2px 0 0 #91fcfe,
+    4px 0 0 #4405fc;
+  animation: blink 1s steps(4, start) infinite;
+}
+
+input {
+    padding: 3px;
+    /* box-shadow: 3px 3px 5px grey; */
+    font-size: 14px;
+    /* font-weight: 600; */
+    width: 300px;
+}
+
+label {
+  color: aqua;
+  /* font-weight: bold;*/
+  display: inline-block;
+}
