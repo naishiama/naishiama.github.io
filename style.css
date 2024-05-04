@@ -152,5 +152,7 @@ label {
 
 .footer {
     position: relative;
-    bottom: 25px;
+    text-align: center;
+    padding: 3px;
+    bottom: 125px;
 }
