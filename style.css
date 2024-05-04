@@ -149,3 +149,8 @@ label {
   /* font-weight: bold;*/
   display: inline-block;
 }
+
+.footer {
+    position: relative;
+    bottom: 25px;
+}
