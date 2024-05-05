@@ -1,9 +1,8 @@
 body {
     background-image: url("./images/bp2.jpg");
-    background-repeat: no-repeat;
-    background-color: rgb(70, 1, 232);
+    /* background-repeat: no-repeat; */
     /* background-size: 100%; */
-    margin: 25px;
+    /* margin: 25px; */
 }
 
 #title {
@@ -34,7 +33,7 @@ ul {
     /* margin: 0; */
     /* padding: 0; */
     overflow: hidden;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.053);
     /* position: relative; */
     /* top: 20px; */ */
 }
